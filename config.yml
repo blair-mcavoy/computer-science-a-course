@@ -3,13 +3,14 @@ description: We will use this to collaborate on projects.
 template:
   repo: computer-science-a-template
   name: computer-science-a
+  description: All projects can be found here.
 before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
+  - title: Project 1
+    description: Hello World
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
